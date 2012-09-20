@@ -1,0 +1,616 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Sta",
+				"startingDirection"
+			],
+			[
+				"intro",
+				"intro1Array"
+			],
+			[
+				"Entit",
+				"entityName"
+			],
+			[
+				"pr",
+				"protected"
+			],
+			[
+				"act",
+				"actuallyInitializeStateExtended"
+			],
+			[
+				"per",
+				"PercentUnlocked"
+			],
+			[
+				"hi",
+				"highRankCountForYoyos"
+			],
+			[
+				"flo",
+				"flowerPos"
+			],
+			[
+				"start",
+				"startDelay"
+			],
+			[
+				"star",
+				"startDelay"
+			],
+			[
+				"current",
+				"currentObject"
+			],
+			[
+				"cur",
+				"currentObject"
+			],
+			[
+				"cu",
+				"currentObject"
+			],
+			[
+				"score",
+				"scoreState"
+			],
+			[
+				"yoy",
+				"yoyos"
+			],
+			[
+				"new",
+				"newEntityName"
+			],
+			[
+				"effec",
+				"effectName"
+			],
+			[
+				"seq",
+				"sequenceName"
+			],
+			[
+				"init",
+				"initialState"
+			],
+			[
+				"entit",
+				"entityName"
+			],
+			[
+				"anim",
+				"animationState"
+			],
+			[
+				"yoyoU",
+				"yoyoUpdatedSelector"
+			],
+			[
+				"fram",
+				"frameX"
+			],
+			[
+				"off",
+				"offsetY"
+			],
+			[
+				"se",
+				"sequenceName"
+			],
+			[
+				"deb",
+				"debugFonts"
+			],
+			[
+				"scree",
+				"screenHeight"
+			],
+			[
+				"te",
+				"textureKey"
+			],
+			[
+				"temp",
+				"tempImage"
+			],
+			[
+				"text",
+				"textureKey"
+			],
+			[
+				"Bit",
+				"BitmapData"
+			],
+			[
+				"Enti",
+				"EntityType"
+			],
+			[
+				"game",
+				"gameRunning"
+			],
+			[
+				"curren",
+				"currentGameState"
+			],
+			[
+				"cleanU",
+				"cleanUpRating"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"rating",
+				"ratingIcon"
+			],
+			[
+				"rat",
+				"ratingIconHolder"
+			],
+			[
+				"ra",
+				"ratingIconHolder"
+			],
+			[
+				"ratingIc",
+				"ratingIconHolder"
+			],
+			[
+				"initia",
+				"initializeVersion"
+			],
+			[
+				"Master",
+				"MasterOfYoModel"
+			],
+			[
+				"bit",
+				"bitmapData"
+			],
+			[
+				"back",
+				"backgroundImage"
+			],
+			[
+				"selected",
+				"selectedBackgroundImageNumber"
+			],
+			[
+				"Bac",
+				"Backgrounds"
+			],
+			[
+				"curr",
+				"currentPageNumber"
+			],
+			[
+				"pag",
+				"pagingIcon"
+			],
+			[
+				"sta",
+				"startingPage"
+			],
+			[
+				"scr",
+				"scrollBar"
+			],
+			[
+				"scrollB",
+				"ScrollBar"
+			],
+			[
+				"comp",
+				"computedPercent"
+			],
+			[
+				"scrollBar",
+				"scrollBarPositionUpdate"
+			],
+			[
+				"scro",
+				"scrollingUpdateFunction"
+			],
+			[
+				"handleMou",
+				"handleMouseUp"
+			],
+			[
+				"scrolling",
+				"scrollingTimerUpdate"
+			],
+			[
+				"world",
+				"worldRef"
+			],
+			[
+				"wor",
+				"worldRef"
+			],
+			[
+				"leve",
+				"levelNumberObject"
+			],
+			[
+				"level",
+				"levelNumberDisplay"
+			],
+			[
+				"levelN",
+				"levelNumbersWidth"
+			],
+			[
+				"user",
+				"userData"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/AS3.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 115.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jeremy/.bash_profile",
+		"/Users/jeremy/.ssh/config",
+		"/Users/jeremy/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/SoundEngine.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/levels/StageSelect.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/levels/LevelPicker.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/utils/findInArray.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/levels/LevelNumber.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/levels/LevelDisplay.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/Scoring.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/Entity.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/LevelComplete.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/JT.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/Bird.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/Image.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/userinterface/InterfaceDisplay.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/YoYo.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/Kid.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/levels/Title.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/utils/getEntitiesForStageLevel.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/PointEffect.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/Effect.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/UserData.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/levels/StageDisplay.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/Animation.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/AppExtras.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/framework/Table.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/utils/empty.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/utils/getClass.as",
+		"/Users/jeremy/Documents/Pixel Pirate Studio/MasterOfYo/source-as3/utils/getClass",
+		"/Users/jeremy/Sites/CloDo/DonationCenter.sublime-project"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Messaging",
+			"master_messaging",
+			"sbin",
+			"yoyos",
+			"PercentUnlocked",
+			"trace",
+			"levelCompleteSuccess",
+			"handleRe",
+			"handleVictoryDanceComplete",
+			"yoyoReturn",
+			".y",
+			"levelComplete",
+			"canvasHolder",
+			"drawImage",
+			"mouseEnabled",
+			"new Image",
+			"showLevelMenu",
+			"backButton",
+			"finalImage",
+			"finalImageTexture",
+			"levelCom",
+			"LevelCompleteSheet",
+			"drawTexture",
+			"effectSound",
+			"PercentUnlocked",
+			"Car",
+			"musicChannel",
+			"effectsChannel",
+			"SoundEngine",
+			"Flowers",
+			"obstacleType",
+			"finalImage",
+			"trace",
+			"trace(",
+			"initializeYoyos",
+			"handleVictoryDanceComplete",
+			"handleInstructionsEnd",
+			"actuallyInitializeState",
+			"startGame",
+			"handleMouseDown",
+			"InstructionsE",
+			"ShowF",
+			"AppExtras",
+			"Messaging",
+			"instructions",
+			"finalImageTexture",
+			"unlockedLevelYoyo",
+			"handleVictoryDanceComplete",
+			"entity colliding",
+			"dir",
+			"yoyoCompletePercentage",
+			"levelLength",
+			"yoyoCompletePercentage",
+			"YoYoUnlocked",
+			"_currentYoYo",
+			"textureKey",
+			"GrapeSoda",
+			"GrapeSode",
+			"unlocked",
+			"package",
+			"unlockedYoYo",
+			"EntityTy",
+			"flipDirection",
+			"table",
+			"isCollidingWith",
+			"Table",
+			"Backgrounds",
+			"existing",
+			"SoundEngine.",
+			"SoundE",
+			"effectSound",
+			"trace",
+			"initialState:\" ",
+			"\"}];",
+			"\"},",
+			"getEntitiesFor",
+			"YinStage",
+			"instructions",
+			"handleInstructionsEnd",
+			"levelLabel",
+			"backButt",
+			"LevelComplete",
+			"handleMouseUp",
+			"graphics",
+			"updateLaunchBonus",
+			"launchBonus",
+			"{:",
+			"Scoring",
+			"PowerBoost",
+			"initializeYoyos",
+			"launchBonus",
+			"scoreStates",
+			"pointEffect",
+			"tileWidth",
+			"pointEffect",
+			"effect",
+			"pointEffect",
+			"entityName + ",
+			"handleAnimationComplete",
+			"finalImage",
+			"trace(",
+			"levelComplete.activate",
+			"animation",
+			"entityName",
+			"updateYoyoSelector",
+			"setSequence",
+			"levelCompleteSuccess",
+			"yoyo.state",
+			"state",
+			"handleYinMouseUp",
+			"advanceState",
+			"updateStateData",
+			"currentYoYo",
+			"scoreUpdatedSelector",
+			"addScoreUpdatedSelector",
+			"scoreUpdatedSelector",
+			"yoyo",
+			"(height:[0-9]+)\\};",
+			"TextureMap[entityName][sequenceName][textureKey]",
+			",}",
+			"});",
+			".push(",
+			"Rockwell",
+			"GeoSlab",
+			"debugFonts",
+			"initiateExtras",
+			"handleExtrasButton",
+			"hideExtras"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"variation",
+			"optional",
+			"variation",
+			"optional",
+			"initialState:\"",
+			"\", delay:0}];",
+			"\", delay:0},",
+			"$1, frameX:0, frameY:0};",
+			"}",
+			"};",
+			" = ",
+			"};",
+			"[0] = ",
+			", frameY:",
+			", frameX:",
+			", height:",
+			", width:",
+			", height:",
+			"height:",
+			"width:",
+			"entityClass:\"Kid\", entityType:\"Girl1\",",
+			"entityClass:\"Kid\", entityType:\"Girl1\"",
+			"obstacleType:\"regular\", initialState:\"RunLeft\"}",
+			"Kid",
+			"",
+			" = ",
+			"[{",
+			"};",
+			" = ",
+			"animRunning",
+			"animTimer",
+			"sequenceName",
+			":{},",
+			"",
+			" = new Array();",
+			", obstacleType:\"regular\"}]",
+			", obstacleType:\"regular\"},",
+			"$1, frameY",
+			"$1, frameX",
+			"$1, height",
+			"$1, width",
+			"$1, y",
+			":",
+			"})",
+			"animationState",
+			"sequenceName",
+			"		[{",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"image",
+				"framework/Image.as"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true
+}

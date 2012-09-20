@@ -399,10 +399,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Kiip/Headers";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Kiip/$(PLATFORM_NAME)";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lKiip",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -424,10 +421,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Kiip/Headers";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Kiip/$(PLATFORM_NAME)";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lKiip",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
