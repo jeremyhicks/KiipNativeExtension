@@ -1,5 +1,11 @@
-"/Users/jeremy/Documents/dev/AIR/3.4/AdobeAIRSDK/bin/adt" -package -target ane KiipNativeExtension.ane extension.xml -swc KiipNativeExtension.swc -platform iPhone-ARM -C ios . -platformoptions iosoptions.xml -platform default -C default .
+// "/Users/jeremy/Projects/air/3.4/AdobeAIRSDK/bin/adt"
+
+"/Users/jeremy/Projects/air/3.4/AdobeAIRSDK/bin/adt" -package -target ane KiipNativeExtension.ane extension.xml -swc KiipNativeExtension.swc -platform iPhone-ARM -C ios . -platformoptions iosoptions.xml -platform default -C default .
 
 
 // IPA
-"/Users/jeremy/Documents/dev/AIR/3.4/AdobeAIRSDK/bin/adt" -package -target ipa-test-interpreter -storetype pkcs12 -keystore "/Users/jeremy/Documents/Pixel Pirate Studio/Certificates.p12" -storepass divbg77jdh -provisioning-profile "/Users/jeremy/Sites/slaphostgames/httpdocs/beta/Distribution_Ad_Hoc.mobileprovision" TestKiip.ipa TestKiip-app.xml TestKiip.swf -extdir ../KiipNativeExtension/build/ -platformsdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/
+// "/Users/jeremy/Projects/air/3.4/AdobeAIRSDK/bin/adt"
+// "/Applications/CS6/Adobe Flash CS6/AIR3.2/bin/adt"
+
+
+"/Users/jeremy/Projects/air/3.4/AdobeAIRSDK/bin/adt" -package -target ipa-test-interpreter -storetype pkcs12 -keystore "/Users/jeremy/Projects/Pixel Pirate Studio/Certificates.p12" -storepass divbg77jdh -provisioning-profile "/Users/jeremy/Sites/slaphostgames/httpdocs/beta/Distribution_Ad_Hoc.mobileprovision" TestKiip.ipa TestKiip-app.xml TestKiip.swf -extdir ../KiipNativeExtension/build/ -platformsdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/

@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F48AF8F160ADC06000C0AA3 /* libKiip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F48AF89160ADC06000C0AA3 /* libKiip.a */; };
-		3F48AF90160ADC06000C0AA3 /* libKiip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F48AF8B160ADC06000C0AA3 /* libKiip.a */; };
-		3F48AF91160ADC06000C0AA3 /* libKiip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F48AF8E160ADC06000C0AA3 /* libKiip.a */; };
 		3F6D4C911605914300619222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4C901605914300619222 /* Foundation.framework */; };
 		3F6D4C961605914300619222 /* KIIPANE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F6D4C951605914300619222 /* KIIPANE.h */; };
 		3F6D4C981605914300619222 /* KIIPANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D4C971605914300619222 /* KIIPANE.m */; };
@@ -21,6 +18,7 @@
 		3F6D4CE2160593BF00619222 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CD41605937700619222 /* SystemConfiguration.framework */; };
 		3F6D4CE3160593BF00619222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CD51605937700619222 /* UIKit.framework */; };
 		3F6D4CE61605957300619222 /* KiipDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D4CE51605957300619222 /* KiipDelegate.m */; };
+		3F938476160D9EF700A25BA3 /* libKiip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F48AF89160ADC06000C0AA3 /* libKiip.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,9 +90,7 @@
 				3F6D4CE1160593BF00619222 /* MobileCoreServices.framework in Frameworks */,
 				3F6D4CE2160593BF00619222 /* SystemConfiguration.framework in Frameworks */,
 				3F6D4CE3160593BF00619222 /* UIKit.framework in Frameworks */,
-				3F48AF8F160ADC06000C0AA3 /* libKiip.a in Frameworks */,
-				3F48AF90160ADC06000C0AA3 /* libKiip.a in Frameworks */,
-				3F48AF91160ADC06000C0AA3 /* libKiip.a in Frameworks */,
+				3F938476160D9EF700A25BA3 /* libKiip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
