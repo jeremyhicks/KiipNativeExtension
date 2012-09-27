@@ -1,13 +1,13 @@
 <platform xmlns="http://ns.adobe.com/air/extension/3.1">
     <sdkVersion>6.0</sdkVersion>
-    <!-- <linkerOptions> -->
+    <linkerOptions>
     	<!-- Relative to the iOS SDK -->
         <!-- <option>-framework ../../../../../../../../../Users/jeremy/Documents/dev/ane/KIIP/KIIP/Kiip-v1.0.18/Headers/</option> -->
-        <!-- 
-        <option>-L /Users/jeremy/Documents/dev/ane/KIIP/KIIP/Kiip-v1.0.18/iphoneos</option>
+        
+        <option>-L /Users/jeremy/Projects/ane/KiipNativeExtension/KIIPXCode/KIIP/Kiip-v1.0.18/iphoneos</option>
         <option>-lKiip</option>
-         -->
+        
         <!-- <option>-libz</option>
         <option>-libxml2</option> -->
-    <!-- </linkerOptions> -->
+    </linkerOptions>
 </platform>

@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6D4C911605914300619222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4C901605914300619222 /* Foundation.framework */; };
+		3F6D4C961605914300619222 /* KIIPANE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F6D4C951605914300619222 /* KIIPANE.h */; };
+		3F6D4C981605914300619222 /* KIIPANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D4C971605914300619222 /* KIIPANE.m */; };
+		3F6D4CDD160593BF00619222 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CCF1605937700619222 /* CFNetwork.framework */; };
+		3F6D4CDE160593BF00619222 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CD01605937700619222 /* CoreGraphics.framework */; };
+		3F6D4CDF160593BF00619222 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CD11605937700619222 /* libxml2.dylib */; };
+		3F6D4CE0160593BF00619222 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CD21605937700619222 /* libz.dylib */; };
+		3F6D4CE1160593BF00619222 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CD31605937700619222 /* MobileCoreServices.framework */; };
+		3F6D4CE2160593BF00619222 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CD41605937700619222 /* SystemConfiguration.framework */; };
+		3F6D4CE3160593BF00619222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D4CD51605937700619222 /* UIKit.framework */; };
+		3F6D4CE61605957300619222 /* KiipDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D4CE51605957300619222 /* KiipDelegate.m */; };
+		3FE7BCFA16141FA40033B0AC /* libKiip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F48AF89160ADC06000C0AA3 /* libKiip.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F6D4C8B1605914300619222 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				3F6D4C961605914300619222 /* KIIPANE.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F48AF66160ADC06000C0AA3 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		3F48AF69160ADC06000C0AA3 /* Kiip.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = Kiip.html; sourceTree = "<group>"; };
+		3F48AF6F160ADC06000C0AA3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		3F48AF70160ADC06000C0AA3 /* toc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = toc.html; sourceTree = "<group>"; };
+		3F48AF71160ADC06000C0AA3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		3F48AF72160ADC06000C0AA3 /* toc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = toc.html; sourceTree = "<group>"; };
+		3F48AF74160ADC06000C0AA3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		3F48AF77160ADC06000C0AA3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		3F48AF78160ADC06000C0AA3 /* toc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = toc.html; sourceTree = "<group>"; };
+		3F48AF79160ADC06000C0AA3 /* toc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = toc.html; sourceTree = "<group>"; };
+		3F48AF7C160ADC06000C0AA3 /* Kiip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kiip.h; sourceTree = "<group>"; };
+		3F48AF7D160ADC06000C0AA3 /* KPErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPErrors.h; sourceTree = "<group>"; };
+		3F48AF7E160ADC06000C0AA3 /* KPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPManager.h; sourceTree = "<group>"; };
+		3F48AF7F160ADC06000C0AA3 /* KPManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPManagerDelegate.h; sourceTree = "<group>"; };
+		3F48AF80160ADC06000C0AA3 /* KPUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPUIConstants.h; sourceTree = "<group>"; };
+		3F48AF82160ADC06000C0AA3 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		3F48AF83160ADC06000C0AA3 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		3F48AF84160ADC06000C0AA3 /* notification-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification-portrait.png"; sourceTree = "<group>"; };
+		3F48AF85160ADC06000C0AA3 /* notification-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification-portrait@2x.png"; sourceTree = "<group>"; };
+		3F48AF86160ADC06000C0AA3 /* spinner-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinner-bg.png"; sourceTree = "<group>"; };
+		3F48AF87160ADC06000C0AA3 /* spinner-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinner-bg@2x.png"; sourceTree = "<group>"; };
+		3F48AF89160ADC06000C0AA3 /* libKiip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKiip.a; sourceTree = "<group>"; };
+		3F48AF8B160ADC06000C0AA3 /* libKiip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKiip.a; sourceTree = "<group>"; };
+		3F48AF8C160ADC06000C0AA3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		3F48AF8E160ADC06000C0AA3 /* libKiip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKiip.a; sourceTree = "<group>"; };
+		3F6D4C8D1605914300619222 /* libKIIPANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKIIPANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6D4C901605914300619222 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F6D4C941605914300619222 /* KIIPANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIIPANE-Prefix.pch"; sourceTree = "<group>"; };
+		3F6D4C951605914300619222 /* KIIPANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIIPANE.h; sourceTree = "<group>"; };
+		3F6D4C971605914300619222 /* KIIPANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIIPANE.m; sourceTree = "<group>"; };
+		3F6D4CA1160591DB00619222 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		3F6D4CCF1605937700619222 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3F6D4CD01605937700619222 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F6D4CD11605937700619222 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3F6D4CD21605937700619222 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3F6D4CD31605937700619222 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3F6D4CD41605937700619222 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F6D4CD51605937700619222 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F6D4CE41605957300619222 /* KiipDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KiipDelegate.h; sourceTree = "<group>"; };
+		3F6D4CE51605957300619222 /* KiipDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiipDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6D4C8A1605914300619222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D4C911605914300619222 /* Foundation.framework in Frameworks */,
+				3F6D4CDD160593BF00619222 /* CFNetwork.framework in Frameworks */,
+				3F6D4CDE160593BF00619222 /* CoreGraphics.framework in Frameworks */,
+				3F6D4CDF160593BF00619222 /* libxml2.dylib in Frameworks */,
+				3F6D4CE0160593BF00619222 /* libz.dylib in Frameworks */,
+				3F6D4CE1160593BF00619222 /* MobileCoreServices.framework in Frameworks */,
+				3F6D4CE2160593BF00619222 /* SystemConfiguration.framework in Frameworks */,
+				3F6D4CE3160593BF00619222 /* UIKit.framework in Frameworks */,
+				3FE7BCFA16141FA40033B0AC /* libKiip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F48AF65160ADC06000C0AA3 /* Kiip */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF66160ADC06000C0AA3 /* CHANGELOG.md */,
+				3F48AF67160ADC06000C0AA3 /* Documentation */,
+				3F48AF7B160ADC06000C0AA3 /* Headers */,
+				3F48AF81160ADC06000C0AA3 /* Images */,
+				3F48AF88160ADC06000C0AA3 /* iphoneos */,
+				3F48AF8A160ADC06000C0AA3 /* iphonesimulator */,
+				3F48AF8C160ADC06000C0AA3 /* README.md */,
+				3F48AF8D160ADC06000C0AA3 /* universal */,
+			);
+			name = Kiip;
+			path = "Kiip-v1.0.18";
+			sourceTree = "<group>";
+		};
+		3F48AF67160ADC06000C0AA3 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF68160ADC06000C0AA3 /* css */,
+				3F48AF69160ADC06000C0AA3 /* Kiip.html */,
+				3F48AF6A160ADC06000C0AA3 /* Kiip_h */,
+				3F48AF6B160ADC06000C0AA3 /* KPErrors_h */,
+				3F48AF6C160ADC06000C0AA3 /* KPManager_h */,
+				3F48AF73160ADC06000C0AA3 /* KPManagerDelegate_h */,
+				3F48AF7A160ADC06000C0AA3 /* KPUIConstants_h */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		3F48AF68160ADC06000C0AA3 /* css */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		3F48AF6A160ADC06000C0AA3 /* Kiip_h */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Kiip_h;
+			sourceTree = "<group>";
+		};
+		3F48AF6B160ADC06000C0AA3 /* KPErrors_h */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KPErrors_h;
+			sourceTree = "<group>";
+		};
+		3F48AF6C160ADC06000C0AA3 /* KPManager_h */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF6D160ADC06000C0AA3 /* Classes */,
+				3F48AF71160ADC06000C0AA3 /* index.html */,
+				3F48AF72160ADC06000C0AA3 /* toc.html */,
+			);
+			path = KPManager_h;
+			sourceTree = "<group>";
+		};
+		3F48AF6D160ADC06000C0AA3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF6E160ADC06000C0AA3 /* KPManager */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3F48AF6E160ADC06000C0AA3 /* KPManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF6F160ADC06000C0AA3 /* index.html */,
+				3F48AF70160ADC06000C0AA3 /* toc.html */,
+			);
+			path = KPManager;
+			sourceTree = "<group>";
+		};
+		3F48AF73160ADC06000C0AA3 /* KPManagerDelegate_h */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF74160ADC06000C0AA3 /* index.html */,
+				3F48AF75160ADC06000C0AA3 /* Protocols */,
+				3F48AF79160ADC06000C0AA3 /* toc.html */,
+			);
+			path = KPManagerDelegate_h;
+			sourceTree = "<group>";
+		};
+		3F48AF75160ADC06000C0AA3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF76160ADC06000C0AA3 /* KPManagerDelegate */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3F48AF76160ADC06000C0AA3 /* KPManagerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF77160ADC06000C0AA3 /* index.html */,
+				3F48AF78160ADC06000C0AA3 /* toc.html */,
+			);
+			path = KPManagerDelegate;
+			sourceTree = "<group>";
+		};
+		3F48AF7A160ADC06000C0AA3 /* KPUIConstants_h */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KPUIConstants_h;
+			sourceTree = "<group>";
+		};
+		3F48AF7B160ADC06000C0AA3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF7C160ADC06000C0AA3 /* Kiip.h */,
+				3F48AF7D160ADC06000C0AA3 /* KPErrors.h */,
+				3F48AF7E160ADC06000C0AA3 /* KPManager.h */,
+				3F48AF7F160ADC06000C0AA3 /* KPManagerDelegate.h */,
+				3F48AF80160ADC06000C0AA3 /* KPUIConstants.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3F48AF81160ADC06000C0AA3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF82160ADC06000C0AA3 /* close.png */,
+				3F48AF83160ADC06000C0AA3 /* close@2x.png */,
+				3F48AF84160ADC06000C0AA3 /* notification-portrait.png */,
+				3F48AF85160ADC06000C0AA3 /* notification-portrait@2x.png */,
+				3F48AF86160ADC06000C0AA3 /* spinner-bg.png */,
+				3F48AF87160ADC06000C0AA3 /* spinner-bg@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3F48AF88160ADC06000C0AA3 /* iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF89160ADC06000C0AA3 /* libKiip.a */,
+			);
+			path = iphoneos;
+			sourceTree = "<group>";
+		};
+		3F48AF8A160ADC06000C0AA3 /* iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF8B160ADC06000C0AA3 /* libKiip.a */,
+			);
+			path = iphonesimulator;
+			sourceTree = "<group>";
+		};
+		3F48AF8D160ADC06000C0AA3 /* universal */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF8E160ADC06000C0AA3 /* libKiip.a */,
+			);
+			path = universal;
+			sourceTree = "<group>";
+		};
+		3F6D4C821605914300619222 = {
+			isa = PBXGroup;
+			children = (
+				3F6D4C921605914300619222 /* KIIP */,
+				3F6D4C8F1605914300619222 /* Frameworks */,
+				3F6D4C8E1605914300619222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6D4C8E1605914300619222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D4C8D1605914300619222 /* libKIIPANE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6D4C8F1605914300619222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D4CCF1605937700619222 /* CFNetwork.framework */,
+				3F6D4CD01605937700619222 /* CoreGraphics.framework */,
+				3F6D4CD11605937700619222 /* libxml2.dylib */,
+				3F6D4CD21605937700619222 /* libz.dylib */,
+				3F6D4CD31605937700619222 /* MobileCoreServices.framework */,
+				3F6D4CD41605937700619222 /* SystemConfiguration.framework */,
+				3F6D4CD51605937700619222 /* UIKit.framework */,
+				3F6D4C901605914300619222 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F6D4C921605914300619222 /* KIIP */ = {
+			isa = PBXGroup;
+			children = (
+				3F48AF65160ADC06000C0AA3 /* Kiip */,
+				3F6D4CA1160591DB00619222 /* FlashRuntimeExtensions.h */,
+				3F6D4C951605914300619222 /* KIIPANE.h */,
+				3F6D4C971605914300619222 /* KIIPANE.m */,
+				3F6D4CE41605957300619222 /* KiipDelegate.h */,
+				3F6D4CE51605957300619222 /* KiipDelegate.m */,
+				3F6D4C931605914300619222 /* Supporting Files */,
+			);
+			path = KIIP;
+			sourceTree = "<group>";
+		};
+		3F6D4C931605914300619222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D4C941605914300619222 /* KIIPANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6D4C8C1605914300619222 /* KIIPANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6D4C9B1605914300619222 /* Build configuration list for PBXNativeTarget "KIIPANE" */;
+			buildPhases = (
+				3F6D4C891605914300619222 /* Sources */,
+				3F6D4C8A1605914300619222 /* Frameworks */,
+				3F6D4C8B1605914300619222 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIIPANE;
+			productName = KIIP;
+			productReference = 3F6D4C8D1605914300619222 /* libKIIPANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6D4C841605914300619222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jeremy Hicks";
+			};
+			buildConfigurationList = 3F6D4C871605914300619222 /* Build configuration list for PBXProject "KIIPANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F6D4C821605914300619222;
+			productRefGroup = 3F6D4C8E1605914300619222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6D4C8C1605914300619222 /* KIIPANE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6D4C891605914300619222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D4C981605914300619222 /* KIIPANE.m in Sources */,
+				3F6D4CE61605957300619222 /* KiipDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F6D4C991605914300619222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/KIIP/Kiip-v1.0.18/Headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/KIIP/Kiip-v1.0.18/$(PLATFORM_NAME)\"";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F6D4C9A1605914300619222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/KIIP/Kiip-v1.0.18/Headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/KIIP/Kiip-v1.0.18/$(PLATFORM_NAME)\"";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6D4C9C1605914300619222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KIIP.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIIP/KIIPANE-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/KIIP/Kiip-v1.0.18/Headers\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/KIIP/Kiip-v1.0.18/$(PLATFORM_NAME)\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KIIPANE;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F6D4C9D1605914300619222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KIIP.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIIP/KIIPANE-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/KIIP/Kiip-v1.0.18/Headers\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/KIIP/Kiip-v1.0.18/$(PLATFORM_NAME)\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KIIPANE;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6D4C871605914300619222 /* Build configuration list for PBXProject "KIIPANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6D4C991605914300619222 /* Debug */,
+				3F6D4C9A1605914300619222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6D4C9B1605914300619222 /* Build configuration list for PBXNativeTarget "KIIPANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6D4C9C1605914300619222 /* Debug */,
+				3F6D4C9D1605914300619222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6D4C841605914300619222 /* Project object */;
+}

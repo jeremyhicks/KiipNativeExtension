@@ -9,6 +9,13 @@
                 <finalizer>minimalFinalizerFunction</finalizer>
             </applicationDeployment>
         </platform>
+        <platform name="iPhone-x86">
+            <applicationDeployment>
+                <nativeLibrary>libKIIPANE.a</nativeLibrary>
+                <initializer>ExtInitializer</initializer>
+                <finalizer>minimalFinalizerFunction</finalizer>
+            </applicationDeployment>
+        </platform>
         <platform name="default">
             <applicationDeployment/>
         </platform>
